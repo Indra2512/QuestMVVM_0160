@@ -1,4 +1,7 @@
-package model
+package cm.example.myarsitekturmvvm.model
 
-class Siswa {
-}
+data class Siswa(
+    val nama : String ="",
+    val gender : String ="",
+    val alamat : String =""
+)
